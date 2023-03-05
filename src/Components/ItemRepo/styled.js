@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const ItemRepo = styled.div`
-    width: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
     h3{
         font-size: 32px;
